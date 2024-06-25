@@ -1,0 +1,123 @@
+.product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    transform: rotate(30deg);
+}
+.product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+}
+
+@media (min-width: 992px) {
+    .py-lg-5 {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-.5* var(--bs-gutter-x));
+    margin-left: calc(-.5* var(--bs-gutter-x));
+}
+.text-center {
+    text-align: center !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    
+}
+.mx-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 40px;
+}
+.row {
+    padding: 40px 0;
+}
+.text-center {
+    text-align: center;
+}
+.col-lg-6, .col-md-8 {
+    margin: 0 auto;
+}
+.fw-light {
+   
+    color:  white;
+}
+.text-body-secondary {
+    color: #6c757d;
+}
+.btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+}
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #0a0f24;
+    z-index: 0;
+}
+/* Estilo para los iconos de WhatsApp e Instagram */
+.icon {
+    width: 40px; /* Ancho del icono */
+    height: 40px; /* Alto del icono */
+    display: inline-block; /* Mostrar en línea */
+    margin-right: 10px; /* Espacio entre los iconos */
+}
+/* styles.css */
+
+/* Estilo general para el footer */
+/* Estilo general para el footer */
+footer {
+    background-color: #f8f9fa !important; /* Color de fondo */
+    padding: 25px 0 !important; /* Añade espacio alrededor del contenido */
+    border-top: 1px solid #e9ecef !important; /* Borde superior */
+    color: #6c757d !important; /* Color de texto */
+}
+
+/* Estilo para los títulos (h5) en el footer */
+footer h5 {
+    color: #343a40 !important; /* Color más oscuro para los títulos */
+}
+
+/* Estilo para los enlaces dentro de las listas */
+footer .list-unstyled a {
+    color: #6c757d !important; /* Color de los enlaces */
+    text-decoration: none !important; /* Quita el subrayado de los enlaces */
+}
+
+/* Estilo para los enlaces al pasar el cursor por encima */
+footer .list-unstyled a:hover {
+    color: #007bff !important; /* Cambia el color al pasar el cursor por encima */
+}
+
+
